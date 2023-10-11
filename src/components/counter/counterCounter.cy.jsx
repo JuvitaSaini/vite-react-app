@@ -30,5 +30,6 @@ it("incement and decrement working together test",()=>{
   cy.get("span").should("contain","1")
 })
 
+
 })
 

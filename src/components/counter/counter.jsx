@@ -3,7 +3,7 @@ const Counter=()=>{
     const [counter,setCounter]=useState(0);
     return (
         <>
-         <button class="decrement-btn" onClick={()=>setCounter(prev=>prev-1)}>-</button><span>{counter} </span><button class="increment-btn" onClick={()=>setCounter(prev=>prev+1)}>+</button>
+         <button className="decrement-btn" onClick={()=>setCounter(prev=>prev-1)}>-</button><span>{counter} </span><button className="increment-btn" onClick={()=>setCounter(prev=>prev+1)}>+</button>
 
         </>
     )
